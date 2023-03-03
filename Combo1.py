@@ -25,5 +25,5 @@ def remove_association_lines(image_path):
     # Return the modified text
     return modified_text
 
-modified_text = remove_association_lines('class.png')
+modified_text = remove_association_lines('img.png')
 print(modified_text)

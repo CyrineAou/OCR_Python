@@ -51,7 +51,7 @@ def detect_text(image_path):
     return json_output
 
 # Call the detect_text function with the path to the class diagram image
-json_output = detect_text('classcy.png')
+json_output = detect_text('img.png')
 
 # Print the JSON output
 print(json_output)

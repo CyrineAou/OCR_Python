@@ -4,7 +4,7 @@ import re
 import json
 
 # Load the UML class diagram image using OpenCV
-img = cv2.imread('class-diagram-example.png')
+img = cv2.imread('img.png')
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

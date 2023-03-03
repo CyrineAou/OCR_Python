@@ -2,7 +2,6 @@ import cv2
 import pytesseract
 import re
 
-
 # Load the class diagram image using OpenCV
 img = cv2.imread('img.png')
 
